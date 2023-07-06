@@ -1,5 +1,6 @@
-package com.example.gametrackerapi.core;
+package com.example.gametrackerapi.entity;
 
+import com.example.gametrackerapi.core.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

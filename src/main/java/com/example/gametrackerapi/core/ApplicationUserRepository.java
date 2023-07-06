@@ -1,5 +1,6 @@
 package com.example.gametrackerapi.core;
 
+import com.example.gametrackerapi.entity.ApplicationUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -3,6 +3,7 @@ package com.example.gametrackerapi.core;
 import com.example.gametrackerapi.core.validator.EmailValidator;
 import com.example.gametrackerapi.core.exception.EmailTakenException;
 import com.example.gametrackerapi.core.exception.InvalidEmailException;
+import com.example.gametrackerapi.entity.ApplicationUser;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

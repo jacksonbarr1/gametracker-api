@@ -1,6 +1,6 @@
 package com.example.gametrackerapi.jwt;
 
-import com.example.gametrackerapi.core.ApplicationUser;
+import com.example.gametrackerapi.entity.ApplicationUser;
 import com.example.gametrackerapi.core.ApplicationUserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.BadCredentialsException;
