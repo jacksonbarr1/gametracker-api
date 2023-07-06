@@ -30,4 +30,15 @@ public class GlobalExceptionHandler {
         response.setHttpStatus(HttpStatus.BAD_REQUEST);
         return response;
     }
+
+    @ExceptionHandler(InvalidAccessKeyException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ResponseBody
+    public ErrorResponse handleInvalidAccessKeyException(InvalidAccessKeyException e) {
+        ErrorResponse response = new ErrorResponse();
+        response.setMessage("Invalid access key");
+        response.setE(e);
+        response.setHttpStatus(HttpStatus.BAD_REQUEST);
+        return response;
+    }
 }
